@@ -1,3 +1,4 @@
+/* index */
 .profile {
   width: 100px;
   display: block;
@@ -27,6 +28,7 @@
   box-shadow: 5px 5px black;
 }
 
+/* layout */
 .container {
   width: 800px;
 }
@@ -41,14 +43,15 @@
   width: 20%;
   height: 400px;
   background: cornflowerblue;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .right {
   width: 80%;
   height: 400px;
   background: coral;
-  float: left;
+  /* display: inline-block; */
 }
 
 .footer {
